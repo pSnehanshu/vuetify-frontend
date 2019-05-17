@@ -51,5 +51,13 @@
   ],
   "description": "Frontend for Sabpad school management system",
   "author": "Snehanshu Phukon",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sabpad/sabpad-frontend.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/sabpad/sabpad-frontend/issues"
+  },
+  "homepage": "https://gitlab.com/sabpad/sabpad-frontend#readme"
 }
