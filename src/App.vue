@@ -1,19 +1,9 @@
 <template>
-  <v-app>
-    <v-toolbar app></v-toolbar>
-
-    <v-content></v-content>
-  </v-app>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
+  </div>
 </template>
-
-<script>
-export default {
-  name: "App",
-  components: {},
-  data() {
-    return {
-      //
-    };
-  }
-};
-</script>
