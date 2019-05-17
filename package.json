@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "npm run serve"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -47,5 +48,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "Frontend for Sabpad school management system",
+  "author": "Snehanshu Phukon",
+  "license": "UNLICENSED"
 }
